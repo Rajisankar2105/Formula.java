@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class TrianglePerimeter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter side a: ");
+        double a = scanner.nextDouble();
+        System.out.print("Enter side b: ");
+        double b = scanner.nextDouble();
+        System.out.print("Enter side c: ");
+        double c = scanner.nextDouble();
+        double perimeter = a + b + c;
+        System.out.println("The perimeter of the triangle is: " + perimeter);
+    }
+}
