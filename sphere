@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class SphereCalculations {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter radius of the sphere: ");
+        double r = sc.nextDouble();
+        double surfaceArea = 4 * Math.PI * r * r;
+        double volume = (4.0 / 3.0) * Math.PI * r * r * r;
+        System.out.println("Surface Area: " + surfaceArea);
+        System.out.println("Volume: " + volume);
+    }
+}
