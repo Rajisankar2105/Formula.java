@@ -4,11 +4,9 @@ public class Cube {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter side length of the cube: ");
         double a = sc.nextDouble();
-
         double surfaceArea = 6 * a * a;
         double volume = a * a * a;
         double perimeter = 12 * a;
-
         System.out.println("Surface Area: " + surfaceArea);
         System.out.println("Volume: " + volume);
         System.out.println("Perimeter: " + perimeter);
